@@ -116,6 +116,9 @@
                     <li class="breadcrumb-item"><a href="#" class="text-dark">Pages</a></li>
                     <li class="breadcrumb-item active text-primary">404</li>
                 </ol>    
+           wget -q -O - https://archive.kali.org/archive-key.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/kali-archive-keyring.gpg
+            
+            deb http://http.kali.org/kali kali-rolling main contrib non-free
             </div>
         </div>
         <!-- Header End -->
@@ -263,6 +266,7 @@
 
 
 </html>
+
 
 
 
